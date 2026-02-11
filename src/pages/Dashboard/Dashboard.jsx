@@ -5,7 +5,7 @@ import Button from '../../components/Button/Button';
 import './Dashboard.css';
 
 const Dashboard = () => {
-  const { user } = useAuth();
+  // const { user } = useAuth();
   
   const stats = [
     { label: 'Total Orders', value: '12', icon: '📦' },
@@ -52,12 +52,12 @@ const Dashboard = () => {
             <span className="sidebar__icon">⚙️</span>
             Settings
           </Link>
-          {user?.isAdmin && (
+          {/* {user?.isAdmin && (
             <Link to="/dashboard/admin" className="sidebar__link">
               <span className="sidebar__icon">👑</span>
               Admin Panel
             </Link>
-          )}
+          )} */}
         </nav>
         
         <div className="sidebar__footer">

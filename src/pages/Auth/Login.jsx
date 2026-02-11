@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import Button from '../../components/Button/Button';
 import './Auth.css';
+import axios  from '../../service/api';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -23,8 +24,9 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      await login(email, password);
-      navigate(from, { replace: true });
+      const res=await axios.post('login/',{email, password});
+      localStorage.setItem('accesstoken', res?.data?.access)
+      navigate('/dashboard')
     } catch (err) {
       setError(err.message || 'Login failed. Please try again.');
     } finally {

@@ -3,7 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { Navigate } from 'react-router-dom';
 
 const ProtectedRoute = ({ children, requireAdmin = false }) => {
-  const { user, loading } = useAuth();
+token=localStorage.getItem('accesstoken')
 
   if (loading) {
     return (
@@ -14,11 +14,11 @@ const ProtectedRoute = ({ children, requireAdmin = false }) => {
     );
   }
 
-  if (!user) {
+  if (!token) {
     return <Navigate to="/login" />;
   }
 
-  if (requireAdmin && !user.isAdmin) {
+  if (token) {
     return <Navigate to="/dashboard" />;
   }
 
