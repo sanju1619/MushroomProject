@@ -1,0 +1,105 @@
+.product-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-subtle);
+    transition: all var(--transition-base);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-elevated);
+  }
+  
+  .product-card__image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .product-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+  }
+  
+  .product-card:hover .product-card__image {
+    transform: scale(1.05);
+  }
+  
+  .product-card__badge {
+    position: absolute;
+    top: var(--space-md);
+    right: var(--space-md);
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+  }
+  
+  .product-card__content {
+    padding: var(--space-lg);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-sm);
+  }
+  
+  .product-card__name {
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    margin: 0;
+  }
+  
+  .product-card__price {
+    font-size: var(--font-size-base);
+    color: var(--color-primary);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .product-card__description {
+    font-size: var(--font-size-sm);
+    color: var(--color-dark-gray);
+    margin-bottom: var(--space-lg);
+    flex-grow: 1;
+  }
+  
+  .product-card__button {
+    width: 100%;
+  }
+
+  /* Add to existing file */
+.product-card__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.product-card__details-btn {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  padding: var(--space-xs);
+  text-align: center;
+  transition: color var(--transition-base);
+}
+
+.product-card__details-btn:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}

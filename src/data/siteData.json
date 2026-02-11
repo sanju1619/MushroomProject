@@ -1,0 +1,196 @@
+{
+  "site": {
+    "name": "Oyster Mushrooms",
+    "tagline": "Grown Naturally - Delivered Today"
+  },
+  "navigation": [
+    { "id": 1, "name": "Home", "path": "/" },
+    { "id": 2, "name": "About Us", "path": "/about" },
+    { "id": 3, "name": "How We Grow", "path": "/how-we-grow" },
+    { "id": 4, "name": "Our Mushrooms", "path": "/products" },
+    { "id": 5, "name": "Contact", "path": "/contact" }
+  ],
+  "hero": {
+    "title": "Fresh Oyster Mushrooms,",
+    "subtitle": "Grown Naturally - Delivered Today",
+    "ctaPrimary": "Order Fresh Mushrooms",
+    "ctaSecondary": "See How We Grow",
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "100% Organic & Chemical-Free",
+      "description": "Grown in carefully controlled environments without pesticides or artificial additives."
+    },
+    {
+      "id": 2,
+      "title": "Harvested Daily",
+      "description": "Picked at peak freshness every morning to ensure maximum flavor and nutritional value."
+    },
+    {
+      "id": 3,
+      "title": "Fast Local Delivery",
+      "description": "Delivered to your door within hours of harvest, supporting our local community."
+    }
+  ],
+  "process": [
+    {
+      "id": 1,
+      "step": "01",
+      "title": "Natural Spawn",
+      "description": "We start with certified organic spawn in a sterile, nutrient-rich substrate.",
+      "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "step": "02",
+      "title": "Controlled Environment",
+      "description": "Our climate-controlled growing rooms maintain perfect humidity and temperature.",
+      "image": "https://images.unsplash.com/photo-1597098544316-a1d5a5d34c09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "step": "03",
+      "title": "Daily Monitoring",
+      "description": "Each batch is monitored for optimal growth and health by our expert growers.",
+      "image": "https://images.unsplash.com/photo-1575280902541-58c3282f2c04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "step": "04",
+      "title": "Hand Harvested",
+      "description": "Every mushroom is carefully hand-picked at the perfect moment of maturity.",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Pearl Oyster",
+      "description": "Classic, delicate flavor with a velvety texture. Perfect for sautéing and soups.",
+      "price": "$12.95 / lb",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.CJAXiBWb-762rZy8btthZgHaE8?pid=Api&P=0&h=180",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Blue Oyster",
+      "description": "Earthy and robust with striking blue-grey caps. Excellent for grilling.",
+      "price": "$14.50 / lb",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.XQTKz0tr3uP0QWpdT-In_gHaE5?pid=Api&P=0&h=180",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Golden Oyster",
+      "description": "Vibrant yellow caps with a slightly nutty flavor. Beautiful in salads.",
+      "price": "$15.75 / lb",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.cGaoA958EN1O-mFi2v2urwHaEK?pid=Api&P=0&h=180",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Pink Oyster",
+      "description": "Stunning pink color with a bacon-like flavor when cooked. A true delicacy.",
+      "price": "$16.95 / lb",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.7Gs33cqGcM7TjcQtWNKpYwHaHa?pid=Api&P=0&h=180",
+      "available": false
+    }
+  ],
+  "about": {
+    "title": "Our Story",
+    "content": "We are a small family-run oyster mushroom farm dedicated to sustainable, organic cultivation. Our journey began with a simple passion for growing clean, nutritious food for our community. Every mushroom we grow is nurtured with care, harvested with respect, and delivered with pride.",
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  },
+  "contact": {
+    "email": "hello@oystermushrooms.com",
+    "phone": "(555) 123-4567",
+    "address": "123 Forest Lane, Green Valley, CA 90210",
+    "hours": "Monday - Friday: 9am - 5pm\nSaturday: 10am - 2pm"
+  },
+
+  "team": [
+    {
+      "id": 1,
+      "name": "Alex Chen",
+      "role": "Head Mycologist",
+      "bio": "With 15 years of experience in mycology, Alex oversees our cultivation process and ensures every mushroom meets our high standards.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Maria Rodriguez",
+      "role": "Sustainability Director",
+      "bio": "Maria manages our eco-friendly practices and community partnerships, ensuring we grow sustainably.",
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b786d4d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80"
+    },
+    {
+      "id": 3,
+      "name": "James Wilson",
+      "role": "Harvest Manager",
+      "bio": "James leads our harvesting team, hand-picking each mushroom at its peak of perfection.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Sophie Park",
+      "role": "Community Outreach",
+      "bio": "Sophie connects with our local community and ensures our mushrooms reach those who appreciate them most.",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80"
+    }
+  ],
+
+  "productDetails": {
+    "pearl-oyster": {
+      "id": 1,
+      "name": "Pearl Oyster",
+      "scientificName": "Pleurotus ostreatus",
+      "description": "The classic oyster mushroom with a delicate, velvety texture and mild, slightly sweet flavor. Our most popular variety, perfect for all cooking methods.",
+      "longDescription": "Pearl Oyster mushrooms are known for their delicate, fan-shaped caps and tender texture. They absorb flavors beautifully while maintaining a pleasant, slightly sweet taste. Grown in our climate-controlled rooms, these mushrooms are harvested at peak maturity to ensure optimal flavor and nutritional content.",
+      "price": "$12.95 / lb",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80",
+      "available": true,
+      "nutrition": {
+        "calories": "28 per 100g",
+        "protein": "3.3g",
+        "carbs": "4.2g",
+        "fiber": "2.3g"
+      },
+      "cookingTips": [
+        "Sauté with garlic and butter for a simple side dish",
+        "Add to soups and stews in the last 5 minutes of cooking",
+        "Grill with olive oil and herbs",
+        "Use in stir-fries with other fresh vegetables"
+      ],
+      "storage": "Store in paper bag in refrigerator for up to 5 days",
+      "harvestSeason": "Year-round"
+    },
+    "blue-oyster": {
+      "id": 2,
+      "name": "Blue Oyster",
+      "scientificName": "Pleurotus columbinus",
+      "description": "Earthy and robust with striking blue-grey caps. Excellent for grilling and roasting.",
+      "longDescription": "Blue Oyster mushrooms are prized for their beautiful blue-grey coloration and meaty texture. They have a more robust flavor than Pearl Oysters, making them excellent for grilling and roasting. Their firm texture holds up well in cooking, and they develop a wonderful umami flavor when properly prepared.",
+      "price": "$14.50 / lb",
+      "image": "https://images.unsplash.com/photo-1575280902541-58c3282f2c04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80",
+      "available": true,
+      "nutrition": {
+        "calories": "33 per 100g",
+        "protein": "3.8g",
+        "carbs": "4.7g",
+        "fiber": "2.1g"
+      },
+      "cookingTips": [
+        "Excellent for grilling - brush with oil and grill 2-3 minutes per side",
+        "Roast with root vegetables",
+        "Use in hearty stews and braises",
+        "Pair with red meats and game"
+      ],
+      "storage": "Store in paper bag in refrigerator for up to 5 days",
+      "harvestSeason": "Year-round"
+    }
+  }
+
+  
+}
