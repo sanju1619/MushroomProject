@@ -4,4 +4,4 @@ export default function AuthUserRole (){
 
   const decoded = JSON.parse(atob(token.split(".")[1]));
   return decoded;
-};
+}
